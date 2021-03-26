@@ -1,0 +1,136 @@
+#sayfa {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+   }
+   .icerik {
+    float: left;
+    height: auto;
+    width: 1000px;
+   }
+   
+   #logo {
+    height: 80px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+   }
+   #renkicin {
+    height: 60px;
+    width: 1000px;
+    background-color: #E99137;
+   }
+   #menu {
+    height: 50px;
+    width: 1000px;
+    margin-top: 10px;
+    background-color: #DDD;
+   }
+   #icerikrenk {
+    height: 430px;
+    width: 500px;
+    background-color: #111;
+    float: left;
+    margin-right: 20px;
+    margin-left: 65px;
+    margin-top: 10px;
+   }
+   #resimalan {
+    height: 360px;
+    width: 460px;
+    margin: 20px;
+    float: left;
+    color: #EEE;
+   }
+   #sagilk {
+    float: right;
+    height: 400px;
+    width: 200px;
+    margin-right: 25px;
+    margin-top: 10px;
+   }
+   #ilk {
+    height: 100px;
+    width: 170px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    background-color: #1e1e1d;
+   }
+   #orta {
+    height: 100px;
+    width: 170px;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #1e1e1d;
+   }
+   #alt {
+    height: 100px;
+    width: 170px;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #1e1e1d;
+   }
+   #footer {
+    height: 60px;
+    width: 550px;
+    margin-top: 10px;
+    background-color: #DDD;
+    padding-left: 450px;
+    padding-top: 40px;
+    float: left;
+   }
+   #footrenk {
+    height: 20px;
+    width: 1000px;
+    margin-left: -450px;
+    float: left;
+    margin-top: 21px;
+    background-color: #E99137;
+   }
+   
+   
+   
+   
+   
+   .dd_menu {
+    padding:0px;
+    margin:0;
+    list-style-type:none;
+    height:30px;
+    background-color: #DDD;
+   }
+   .dd_menu li {
+    float:left;
+    height:30px;
+    border-right: solid 1px white;
+   }
+   .dd_menu li a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font:12px arial, verdana, sans-serif;
+    font-weight: bold;
+    padding-top: 9px;
+    padding-right: 20px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+   }
+   .dd_menu li:hover a {text-decoration:underline;}
+   
+   .dd_menu ul {position:absolute; left:-9999px; top:-9999px; list-style-type:none;}
+   .dd_menu li:hover {
+    position:relative;
+    background-color: #E99137;
+   }
+   .dd_menu li:hover ul {left:0px; top:30px; background:lavender; padding:3px; border:1px solid grey; width:160px;}
+   .dd_menu li:hover ul li a {height:18px; padding:0px; display:block; font-size:11px; width:158px; line-height:18px; text-indent:5px; color:#444; background-color:lavender; text-decoration:none; border:1px solid transparent;}
+   .solsidebar {
+    float: left;
+    height: 450px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+   }
